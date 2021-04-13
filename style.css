@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+header{
+    height: 10.5vh;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+}
+
+a{
+    color: white;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+}
+
+#logo{
+    margin: 0 1.5rem 0 5rem;
+}
+
+#logoIMG{
+    width: 200px;
+}
+
+nav a{
+    justify-content: center;
+    align-items: center;
+}
+
+#headerDiv{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#headerDiv a{
+    margin-right: 3rem;
+}
+
+#hamburger{
+    display: block;
+    padding: 0.5rem;
+    margin-right: 3rem;
+}
+
+.bar{
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    margin: 2px 0;
+}
+
+
+.backgrounds{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+
+#first{
+    background-image: url(https://wallpaperaccess.com/full/1094566.jpg);
+}
+
+#second{
+    background-image: url(https://img2.goodfon.com/wallpaper/nbig/e/95/spacex-falcon-9-dragon-fire.jpg);
+}
+
+#third{
+    background-image: url(https://i.pinimg.com/originals/56/cf/98/56cf98793093077c677b25293657a446.jpg);
+}
+
+#fourth{
+    background-image: url(https://media.king5.com/assets/AMAZELABS/images/0cea878d-fd47-4f6c-85ff-bd5ec827c0eb/0cea878d-fd47-4f6c-85ff-bd5ec827c0eb_1920x1080.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-size: 9pt;
+}
+
+footer a{
+    font-size: 8pt;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
